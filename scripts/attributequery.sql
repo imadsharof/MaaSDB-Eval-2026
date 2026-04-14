@@ -1,0 +1,4 @@
+SELECT NavigationalStatus
+FROM AISInputFiltered
+WHERE MMSI = 219005887
+AND T = '2024-11-20 10:20:11';

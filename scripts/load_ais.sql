@@ -46,7 +46,7 @@ BEGIN
     ROT, SOG, COG, Heading, IMO, CallSign, Name, ShipType, CargoType, Width, Length,
     TypeOfPositionFixingDevice, Draught, Destination, ETA, DataSourceType,
     SizeA, SizeB, SizeC, SizeD)
-  FROM '/Users/imadsharof/Library/Mobile Documents/com~apple~CloudDocs/Cours/MA1/Geospatial Web/MaaSDB-Eval-2026/data/raw/aisdk-2026-04-09.csv' DELIMITER ',' CSV HEADER;
+  FROM '/Users/imadsharof/Library/Mobile Documents/com~apple~CloudDocs/Cours/MA1/Geospatial Web/MaaSDB-Eval-2026/data/raw/aisdk-2024-11-20.csv' DELIMITER ',' CSV HEADER;
 
   RAISE INFO 'Updating AISInput table ...';
   -- Set to NULL out-of-range values of latitude and longitude

@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # ── Config ──────────────────────────────────────────────
-INPUT_FILE = r"/Users/imadsharof/Library/Mobile Documents/com~apple~CloudDocs/Cours/MA1/Geospatial Web/MaaSDB-Eval-2026/data/raw/aisdk-2026-04-09.csv"
+INPUT_FILE = r"/Users/imadsharof/Library/Mobile Documents/com~apple~CloudDocs/Cours/MA1/Geospatial Web/MaaSDB-Eval-2026/data/raw/aisdk-2024-11-20.csv"
 OUTPUT_DIR = r"/Users/imadsharof/Library/Mobile Documents/com~apple~CloudDocs/Cours/MA1/Geospatial Web/MaaSDB-Eval-2026/data/processed"
 
 TIME_START = "10:00"
